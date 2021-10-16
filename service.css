@@ -1,23 +1,16 @@
 .logo{
   width:30% ;  
   height: 70px;
-  border-width:1px ;
-  border-style:solid ;
-  border-color:black ; 
+ 
 }
 .logo img{
   width:100% ;  
   height: 70px;
-  border-width:1px ;
-  border-style:solid ;
-  border-color:black ; 
+   
 }
 .menu{
 width:100% ;  
 height: 80px;
-border-width:1px ;
-border-style:solid ;
-border-color:black ;
 display: flex;
 align-items: center;
 float: left; 
@@ -25,34 +18,19 @@ float: left;
 .logo{
   width:10% ;  
   height: 60px;
-  border-width:1px ;
-  border-style:solid ;
-  border-color:black ; 
   margin-right: 40px;
 }
 .logo img{
   width:100% ;  
-  height: 60px;
-  border-width:1px ;
-  border-style:solid ;
-  border-color:black ; 
+  height: 60px; 
 }
 .menu ul{ 
-
   height: 45px;
-  border-width:1px ;
-  border-style:solid ;
-  border-color:black ;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .menu ul li{ 
-
-  border-width:1px ;
-  border-style:solid ;
-  border-color:black ;
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -73,7 +51,6 @@ background-color:red;
 }
 .menu ul li a:hover{ 
   color:yellow;
-
 }
 
 /*home start*/
@@ -81,34 +58,17 @@ background-color:red;
  float: left;
   width: 100%;
   height: 420px;
-  border-width:1px ;
-  border-style:solid ;
-  border-color:red ; 
   margin: 2px;
 }
-
-
-
-
-
-
 .mySlides {
   width:100%;
   height:385px;
-  border-width:px;
-  border-color:;
-  border-style:;
-
-}
+  }
     
-img {
+.mySlides img {
   width:100%;
   height:335px;
 }
-
-mySlides {display:none;}
-
-
 .mySlides{
   position: relative;
   text-align: center;
@@ -134,7 +94,7 @@ mySlides {display:none;}
   font-weight: bold;
   font-style: italic;
   text-shadow: 4px 4px 2px silver;
-animation: mymove 2s infinite;
+  animation: mymove 2s infinite;
 }
 @keyframes mymove {
   50% {text-shadow: 10px 20px 30px blue;}
@@ -172,8 +132,6 @@ animation: mymove 2s infinite;
   font-style: italic;
 }
 
-
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -181,7 +139,6 @@ animation: mymove 2s infinite;
   top: 50%;
   width: auto;
   padding: 20px;
-  
   margin-top: -90px;
   color: red;
   font-weight: bold;
@@ -214,22 +171,15 @@ animation: mymove 2s infinite;
   color:red;
   font-size: 20px;
   font-weight:bold;
-  padding: ;
-  position: ;
-  bottom: 0;
   text-align:center;
   text-shadow: 4px 4px 2px silver;
 }
-
-
 
 /* Caption text */
 .text{
   height:15px;
   color:red;
   font-size: 20px;
-  padding: ;
-  position: ;
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -239,13 +189,9 @@ animation: mymove 2s infinite;
 /* The dots/bullets/indicators */
 
 .dott{
-  height:;
   width: 100%;
   text-align: center;
 }
-
-
-
 .dot {
   cursor: pointer;
   height: 15px;
@@ -285,35 +231,20 @@ animation: mymove 2s infinite;
   .prev, .next,.text {font-size: 11px}
 }
 
-
-
-mySlides {display:none;}
-
-
-
 /* deacription start*/
 
 .description{
   width: 100%;  
   border-width: 1px;
-border-color:;
-  border-style: ;  
-  display: ;
+
 }
 .card-area{
 width: 100%;  
-margin-left: ;
-border-width: ;
-border-color:;
-border-style:;
-
 display: grid;
-
-
 background-color: #2196F3;
 padding: px;
-grid-template-columns:repeat(2,1fr);
-grid-template-columns:
+grid-template-columns:repeat(3,1fr);
+
 
 }
 
@@ -325,22 +256,16 @@ position: relative;
   padding: 5px;
   font-size: 30px;
   text-align: center;
-  height: 250px;
+  height: 200px;
   border-radius:10px ;
-  border-top:    1px solid red
-border-left:  1px solid red
-border-bottom: 1px solid red
+  
 }
 .card img{
   display: block;
 width: 100%;
 height: auto;
-
-  height: 250px;
+  height: 200px;
 }
-
-
-
 
 .overlay {
   position: absolute;
@@ -354,14 +279,14 @@ height: auto;
   transition: .5s ease;
 }
 
-
 .card:hover .overlay {
   height: 100%;
 }
 .textt {
   color: white;
-  font-size: 20px;
+  font-size: 20px; 
 }
+
 .ownership{
   width:100% ;
   height:60px ;
@@ -370,32 +295,3 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-/*home end*/
-
- /*about start*/
-.about{
-  float: left;
-  width: 100%;
- 
-  border-width: 1px;
-border-color:black;
-  border-style:solid ; 
-
-}
-.about h1{
-
-color: blue;
-
-
-text-align: center;
-}
-.about p{
-  color: blueviolet;
-font-size: 20px;
-text-align: center;
-padding-left: 10px;
-padding-right: 10px;
-
-}
-
-  
