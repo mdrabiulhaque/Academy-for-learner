@@ -262,10 +262,8 @@ background-color:red;
     
   }
   .card img{
-   
-  width: 100%;
- 
-    height: 200px;
+   width: 100%;
+ height: 200px;
   }
   
   .overlay {
@@ -283,7 +281,7 @@ background-color:red;
   .card:hover .overlay {
     height: 100%;
   }
-  .textt {
+  .text {
     color: white;
     font-size: 20px; 
   }
